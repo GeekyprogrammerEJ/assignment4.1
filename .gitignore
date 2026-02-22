@@ -1,0 +1,19 @@
+# Data (do not push CSV - large and may be private)
+*.csv
+household_power_clean.csv
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Optional: exclude large model checkpoints (uncomment if you prefer not to push them)
+# *.keras
+
+# IDE / OS
+.DS_Store
+.idea/
+*.swp
+*.swo
